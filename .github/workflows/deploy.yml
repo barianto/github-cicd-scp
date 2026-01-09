@@ -22,4 +22,4 @@ jobs:
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script_stop: true
         source: "*" 
-        target: "/var/www/html" 
+        target: "/var/www/html/github-cicd-scp" 
